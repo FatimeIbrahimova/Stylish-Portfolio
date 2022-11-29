@@ -1,0 +1,37 @@
+@media (max-width: 576px) {
+    .rightside-nav {
+        display: none !important;
+    }
+
+    #hero-section h1 {
+        text-align: center;
+    }
+    #hero-section {
+        height: 700px !important;
+    }
+
+    #hero-section h3 {
+        text-align: center;
+        width: 65%;
+    }
+
+    .btn-find {
+        margin-top: 50px !important;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .row h1{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #second-section h1{
+        text-align: center;
+    }
+    #second-section p{
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,130 @@
+#hero-section {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    .hero-section_title {
+        // height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 80px;
+        font-weight: 50px;
+    }
+    h3 {
+        font-size: 30px;
+        font-style: italic;
+    }
+}
+
+.btn-find {
+    background-color: $btn-bgcolor;
+    border-color: $btn-bgcolor;
+    color: $btn-color;
+    height: 70px;
+    margin-top: 30px;
+    width: 200px;
+    font-size: 20px;
+}
+#second-section {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        // font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 200px;
+        margin-bottom: 10px;
+    }
+    .btn-offer {
+        color: $btn-color;
+        background-color: $btn-bgColorOffer;
+        height: 70px;
+        margin-top: 30px;
+        width: 200px;
+        font-size: 20px;
+    }
+    //    @media (min-width: 576px){
+    //        width: 25%;
+    //    }
+}
+
+#third-section {
+    // height:50vh;
+    background-color: #1d809f;
+    .container {
+        background-color: #1d809f;
+        h1 {
+            color: $btn-color;
+        }
+        p {
+            color: #ffffffb3;
+        }
+    }
+    .third-section_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 100px;
+        margin-bottom: 50px;
+        h2 {
+            color: #ecb807;
+        }
+        h1 {
+            color: white;
+        }
+    }
+    .mobile-icon {
+        background-color: #fff;
+        // color: #1D809F;
+        height: 7rem;
+        width: 7rem;
+        display: block;
+        line-height: 7.5rem;
+        font-size: 2.25rem;
+        box-shadow: white;
+        color: #1d809f;
+        border: 1px solid #1d809f;
+        background-color: white;
+        border-radius: 50%;
+        .fa-solid fa-mobile-screen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+#fourth-section {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    height: 70vh;
+    .fourth-section_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .btn-download {
+        background-color: $btn-bgcolor;
+        border-color: $btn-bgcolor;
+        color: $btn-color;
+        height: 70px;
+        margin-top: 30px;
+        width: 200px;
+        font-size: 20px;
+    }
+}
+.row i {
+    margin: 0 auto;
+}
