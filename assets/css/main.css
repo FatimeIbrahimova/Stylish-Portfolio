@@ -283,6 +283,14 @@
   #second-section p {
     text-align: center;
   }
+  .fifth-section_title {
+    text-align: center;
+  }
+  .sixth-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 .navbar {
   display: flex;
@@ -383,6 +391,9 @@
 #third-section .container {
   background-color: #1d809f;
 }
+#third-section .container .row {
+  padding-bottom: 60px;
+}
 #third-section .container h1 {
   color: white;
 }
@@ -446,4 +457,103 @@
 
 .row i {
   margin: 0 auto;
+}
+
+#fifth-section {
+  display: flex;
+}
+#fifth-section h3 {
+  color: #ecb807;
+}
+#fifth-section h2 {
+  font-size: 48px;
+}
+#fifth-section .fifth-section_title {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#fifth-section img {
+  width: 100%;
+}
+#fifth-section img:hover {
+  width: 500px;
+  height: 350px;
+  padding: 10px 10px;
+  opacity: 0.5;
+}
+#fifth-section .col-6 {
+  position: relative;
+}
+#fifth-section .img-desc {
+  position: absolute;
+  bottom: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  left: 50px;
+  color: white;
+}
+
+#sixth-section {
+  margin-top: 100px;
+  height: 50vh;
+  background-color: #1d809f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#sixth-section h1 {
+  color: white;
+}
+#sixth-section .btns {
+  color: white;
+  background-color: black;
+  height: 70px;
+  margin-top: 30px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#sixth-section .click-btn {
+  background-color: #f8f9fa;
+  color: black;
+  margin-right: 10px;
+}
+
+iframe {
+  width: 100%;
+}
+
+#sixth {
+  height: 50vh;
+}
+
+footer {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer i {
+  border: 1px solid #1D809F;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 0 auto;
+  background-color: #1D809F;
+  margin: 0 5px;
+}
+footer .fa-brands {
+  padding-left: 17px;
+  padding-top: 15px;
+  color: white;
+}
+footer h5 {
+  margin-top: 50px;
+  color: #6c757d;
 }/*# sourceMappingURL=main.css.map */
